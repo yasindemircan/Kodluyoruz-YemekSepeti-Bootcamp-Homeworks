@@ -1,0 +1,8 @@
+Http Response Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString:  RESPONSE STATUSCODE: 200 Response Body: [{"date":"2021-02-23T01:21:29.2558413+03:00","temperatureC":6,"temperatureF":42,"summary":"Scorching"},{"date":"2021-02-24T01:21:29.2563164+03:00","temperatureC":-18,"temperatureF":0,"summary":"Scorching"},{"date":"2021-02-25T01:21:29.2563215+03:00","temperatureC":32,"temperatureF":89,"summary":"Cool"},{"date":"2021-02-26T01:21:29.2563217+03:00","temperatureC":39,"temperatureF":102,"summary":"Warm"},{"date":"2021-02-27T01:21:29.256322+03:00","temperatureC":38,"temperatureF":100,"summary":"Mild"}] 
+Http Response Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString:  RESPONSE STATUSCODE: 405 Response Body:  
+Http Response Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString:  RESPONSE STATUSCODE: 405 Response Body:  
+Http Response Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString:  RESPONSE STATUSCODE: 405 Response Body:  

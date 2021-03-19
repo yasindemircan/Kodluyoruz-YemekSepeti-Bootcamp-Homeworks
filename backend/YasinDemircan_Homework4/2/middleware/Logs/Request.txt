@@ -1,0 +1,9 @@
+Http Request Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString: Method: GET Request Body: 
+ Http Request Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString: Method: POST Request Body: asdas
+ Http Request Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString: Method: PUT Request Body: asdas
+ Http Request Information:
+Schema:https Host: localhost:5001 Path: /WeatherForecast QueryString: Method: DELETE Request Body: asdas
+ 

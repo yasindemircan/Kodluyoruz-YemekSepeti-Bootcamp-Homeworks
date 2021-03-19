@@ -1,0 +1,121 @@
+html{
+  min-height:100%;/* make sure it is at least as tall as the viewport */
+  position:relative;
+}
+body{
+  background-color:#333;
+  width: 75%;
+  height:100%; /* force the BODY element to match the height of the HTML element */
+ margin-left: auto;
+ margin-right: auto;
+}
+::-webkit-scrollbar {
+  width: 1px;
+}
+
+.App {
+  text-align: center;
+  position: absolute;
+  width: 75%;
+  height: 100%;
+  /* border: 0px solid thistle; */
+  /* background-color: darkgray; */
+  border-radius: 2vh;
+}
+h1{
+  font-style: oblique;
+  font-family: 'Times New Roman', Times, serif;
+  color: aliceblue;
+  text-shadow: -1px 1px 10px rgba(0, 0, 0, 0.75);
+}
+.Inputs{
+  border: 0px solid black;
+  width: 100%; 
+  height: 5%;
+  justify-content: center;
+  display: inline-flex;
+}
+.Text-input{
+  width:75%;
+  font-size: large;
+  min-height: 94%;
+  border:none;
+  outline: none;
+  transition: 0.7s;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.Add-Button{
+  width:20%;
+  min-height:100%;
+  border: 0px solid #333;
+  outline: none;
+  transition: 0.5s;
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 0px 5px 5px 0px;
+
+}
+.Add-Button:hover{
+  border: 0px solid white;
+  background-color: #00B74A;
+  color: white;
+  outline: none;
+}
+.Context-List{
+  /* border: 0px solid blueviolet; */
+  margin-top: 2%;
+  height:80%;
+  overflow: scroll;
+}
+.Context-Item{
+  flex-direction: row;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background-color: white;
+  font-size: large;
+  font-family:  'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 1%;
+  min-height:7%;
+  max-height: fit-content;
+ transition: 0.1s;
+  overflow: auto;
+  padding: 0.3%;
+  animation-name:add;
+  animation-duration: 2s;
+}
+@keyframes add {
+  0% { margin-left: 0%;opacity: 0; transform: translate(-700px, 0)}
+  50% {margin-left: 10%; transform: translate(-50px, 0)}
+  100% {margin-left: 0%;opacity: 1; transform: translate(0%, 0)}
+}
+.Context-Item:hover{
+  font-size: larger;
+  background-color: whitesmoke;
+  
+}
+.Context-Item-Text{
+  width: 85%;
+  height:auto;
+  word-wrap:break-word;
+  word-break:break-all;
+  /* border: 0px solid black; */
+}
+.Context-Item-DeleteBtn{
+  border-width: 0px;
+  border-color: black;
+  border-style: solid;
+  /* margin-left: 3%; */
+  position: relative;
+  color: #D50000;
+  flex:0.9;
+  font-size: 20px;
+  font-weight:500;
+  cursor:pointer;
+  display:inline-flex;
+  align-items:center;
+  justify-content: center;
+}
+
